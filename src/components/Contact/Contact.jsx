@@ -1,6 +1,6 @@
 import css from './Contact.module.css';
 
-const Contact = ({name, number, deleteContact }) => {
+const Contact = ({id, name, number, deleteContact }) => {
   return (
       <div className={css.contactCard}>
           <div className={css.contactInfo}>
@@ -10,7 +10,7 @@ const Contact = ({name, number, deleteContact }) => {
                   <span className={css.contactNumber}>{number}</span>
               </div>
           </div>
-          <button onClick={() => deleteContact(name)} className={css.deleteBtn}>Delete</button>
+          <button onClick={() => deleteContact(id)} className={css.deleteBtn}>Delete</button>
       </div>
       // <div>
       //     <p>{name}</p>
