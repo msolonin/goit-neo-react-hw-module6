@@ -6,18 +6,17 @@
   border-radius: 8px;
   padding: 10px;
   margin-bottom: 10px;
-  width: 300px; /* You can adjust the width as needed */
-  background-color: #fff; /* Card background color */
+  width: 300px;
+  background-color: #fff;
 }
 
-/* Contact details styling */
 .contactInfo {
   display: flex;
   align-items: center;
 }
 
 .contactIcon {
-  margin-right: 10px; /* Space between icon and details */
+  margin-right: 10px;
   font-size: 18px;
 }
 
